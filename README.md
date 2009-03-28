@@ -33,17 +33,18 @@ library.
  
 ## API
  
+* `LOAD-TEST-GROUP (FOLDER)`
+
 - - -
 
-* `LOAD-TEST-GROUP (FOLDER)`
    _Function_. Runs all the "load.lisp" files `FOLDER` or any of `FOLDER`s ancenstors
    that are recognized as being a group folder. `GROUP-FOLDER` is searched in
    depth-first, alphabetical order. "load.lisp" files in group folders marked
    "dont-run" are not loaded.
  
-- - -
-
 * `RUN-TEST-GROUP (FOLDER &REST PATTERNS)`
+
+- - -
  
    _Function_. Runs all the tests in the group-folder `FOLDER` that match `PATTERNS`
    _(I will  document `PATTERNS' when I get a chance --nick)_. Tests are run in depth
@@ -55,9 +56,9 @@ library.
 
    runs all the tests in `FOLDER`, in order.
  
-- - -
-
 * `DEF-TEST-GROUP (FOLDER RUN-FUNCTION-NAME LOAD-FUNCTION-NAME &KEY RUN-TESTS)`
+
+- - -
 
   Concenience _macro_. creates a function named `RUN-FUNCTION-NAME` that
   runs the tests in `FOLDER`.
