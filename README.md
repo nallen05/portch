@@ -1,3 +1,14 @@
+
+
+# DEPRECATED, USE SHIELDWALL INSTEAD
+
+The PORTCH test framework is deprecated. Please use SHIELDWALL instead:
+
+https://github.com/nallen05/shieldwall
+
+
+-------------
+
 # PORTCH
  
 _Portch_ is a small framework for organizing and running tests written with the
